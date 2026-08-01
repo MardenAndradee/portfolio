@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Your Name — Software Developer & QA Engineer",
-    "description": "Portfolio of Your Name, software developer and QA engineer."
+    "title": "Marden Resende Andrade — Software Developer & QA Engineer",
+    "description": "Portfolio of Marden Resende Andrade, software developer and QA engineer."
   },
   "nav": {
     "about": "About",
@@ -12,25 +12,25 @@
   },
   "hero": {
     "greeting": "Hi, I'm",
-    "name": "Your Name",
+    "name": "Marden Resende Andrade",
     "role": "Software Developer & QA Engineer",
-    "tagline": "I build reliable software end to end — from code to quality assurance. Focused on shipping robust, testable, well-crafted products.",
+    "tagline": "I test and build software with the same care: I work as a QA engineer (manual and automated testing) and as a full stack developer, bringing quality assurance and code together in one profile.",
     "ctaProjects": "View projects",
     "ctaContact": "Get in touch",
     "ctaResume": "Download CV",
-    "available": "Available for new opportunities"
+    "available": "Available for freelance"
   },
   "about": {
     "eyebrow": "About me",
     "title": "Who I am",
     "paragraphs": [
-      "[Write a short paragraph here about your journey: how you got into tech, your background, and what drives you as a professional.]",
-      "[Write a second paragraph about your current experience, technical specialties, and the kind of project or challenge you enjoy solving most — whether in development, testing, or both.]"
+      "I started programming in college, studying Computer Science, and quickly moved from theory into practice: I built personal and academic projects in Java, C, C++, and Pascal just to really understand how software is built, without shortcuts from AI. That's where programming logic became second nature to me — and also where I discovered I enjoy both building systems and making sure they actually work.",
+      "Today I work as a QA engineer on a system built entirely in Java, doing manual testing and automated testing with Python and Selenium, and in my spare time I also take on development tasks on that same system — which has given me a full view of the software lifecycle. I prefer being on the development side, especially with Java and Spring Boot, but it's as a QA engineer that I've been standing out: I've been recognized for reducing the bug rate per release and for building my own QA platform, using AI to generate test scenarios and integrating directly with Jira, now adopted by my team."
     ],
     "stats": [
-      { "value": "X+", "label": "Years of experience" },
-      { "value": "X+", "label": "Projects delivered" },
-      { "value": "X+", "label": "Certifications" }
+      { "value": "4+", "label": "Years of experience" },
+      { "value": "6+", "label": "Projects delivered" },
+      { "value": "3+", "label": "Certifications" }
     ]
   },
   "skills": {
@@ -40,23 +40,23 @@
     "categories": [
       {
         "name": "Languages",
-        "items": ["JavaScript", "TypeScript", "Python", "Java"]
+        "items": ["Java", "TypeScript", "JavaScript", "Python"]
       },
       {
         "name": "Front-end",
-        "items": ["React", "Next.js", "Tailwind CSS", "HTML & CSS"]
+        "items": ["React", "HTML", "CSS"]
       },
       {
         "name": "Back-end",
-        "items": ["Node.js", "REST APIs", "SQL", "NoSQL"]
+        "items": ["Spring Boot", "Node.js"]
       },
       {
         "name": "QA & Testing",
-        "items": ["Cypress", "Playwright", "Selenium", "Jest", "API testing", "Manual testing"]
+        "items": ["Selenium", "Automated testing", "Manual testing"]
       },
       {
         "name": "Tools & DevOps",
-        "items": ["Git", "GitHub", "CI/CD", "Docker", "Jira"]
+        "items": ["Git", "GitHub", "Jira"]
       }
     ]
   },
@@ -68,25 +68,41 @@
     "viewDemo": "View demo",
     "items": [
       {
-        "title": "Project Name 1",
-        "description": "[Describe the problem this project solves, your role, and the main technical highlight. Two or three sentences are enough.]",
-        "tags": ["React", "TypeScript", "Node.js"],
+        "title": "Plataforma QA",
+        "description": "A platform I built to centralize and document all the manual tests I run as a QA engineer. It uses AI to automatically generate test scenarios and integrates directly with Jira — creating subtasks, marking them as done, and more — removing repetitive manual work. It was praised by my lead and teammates.",
+        "tags": ["Java", "Spring Boot", "AI", "Jira API", "QA"],
         "images": [],
         "repoUrl": "",
         "demoUrl": ""
       },
       {
-        "title": "Project Name 2",
-        "description": "[Describe the problem this project solves, your role, and the main technical highlight. Two or three sentences are enough.]",
-        "tags": ["Cypress", "QA", "CI/CD"],
+        "title": "FinUp",
+        "description": "A personal finance management system, built as a university extension project for a real client. I was responsible for full stack development and the full delivery cycle: requirements gathering with the client, demos, and testing.",
+        "tags": ["Spring Boot", "React", "TypeScript"],
         "images": [],
         "repoUrl": "",
         "demoUrl": ""
       },
       {
-        "title": "Project Name 3",
-        "description": "[Describe the problem this project solves, your role, and the main technical highlight. Two or three sentences are enough.]",
-        "tags": ["Next.js", "Tailwind", "API"],
+        "title": "Accounting Expert System",
+        "description": "An expert system built as a university extension project to help a company understand its tax situation. A real-client project, including delivery, demos, and testing following standard software engineering practices.",
+        "tags": ["Java", "Expert Systems"],
+        "images": [],
+        "repoUrl": "",
+        "demoUrl": ""
+      },
+      {
+        "title": "Recurring Payments Management",
+        "description": "A system to manage recurring payments for a Muay Thai gym, built as a university extension project for a real client, with deliveries and testing closely followed by the client.",
+        "tags": ["Java", "Payments"],
+        "images": [],
+        "repoUrl": "",
+        "demoUrl": ""
+      },
+      {
+        "title": "Atividade Atleta",
+        "description": "A ticket-selling system for running races, built with a friend, with payments integrated directly via Mercado Pago. A personal project taken from scratch to real production, serving real customers.",
+        "tags": ["Mercado Pago", "Full Stack"],
         "images": [],
         "repoUrl": "",
         "demoUrl": ""
@@ -99,22 +115,28 @@
     "subtitle": "My academic background and professional certifications.",
     "items": [
       {
-        "period": "20XX — 20XX",
-        "title": "Degree or Course Name",
-        "institution": "Institution Name",
-        "description": "[Optional description about the course, thesis, or relevant highlight.]"
+        "period": "2023 — 2026",
+        "title": "Bachelor's Degree in Computer Science",
+        "institution": "UNIFOR-MG",
+        "description": "Studies including several personal, academic, and university extension projects for real clients, applying software engineering practices in the real world."
       },
       {
-        "period": "20XX",
-        "title": "Certification Name (e.g. ISTQB, AWS, etc.)",
-        "institution": "Institution/Issuer Name",
-        "description": "[Optional description about the certification.]"
+        "period": "2024",
+        "title": "Java Completo: Programação Orientada a Objetos + Projetos",
+        "institution": "Udemy — Nélio Alves",
+        "description": ""
       },
       {
-        "period": "20XX",
-        "title": "Additional Course Name",
-        "institution": "Institution Name",
-        "description": "[Optional description.]"
+        "period": "2024",
+        "title": "React do Zero a Maestria (w/ hooks, router, API, Projects)",
+        "institution": "Udemy — Matheus Battisti",
+        "description": ""
+      },
+      {
+        "period": "2023",
+        "title": "Web Frontend Fundamentos HTML5 CSS3 JavaScript + 10 Projects",
+        "institution": "Udemy — Daniel Tappias",
+        "description": ""
       }
     ]
   },
@@ -123,8 +145,8 @@
     "title": "Let's talk",
     "subtitle": "I'm open to new opportunities, projects, and collaborations. Send a message or find me on the networks below.",
     "emailCta": "Send email",
-    "email": "youremail@example.com",
-    "location": "Your City, Country"
+    "email": "marden.andrade1@gmail.com",
+    "location": "Formiga, MG, Brazil"
   },
   "footer": {
     "rights": "All rights reserved.",

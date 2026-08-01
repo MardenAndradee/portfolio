@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: "Seu Nome",
-  email: "seuemail@example.com",
+  name: "Marden Resende Andrade",
+  email: "marden.andrade1@gmail.com",
   resumeUrl: "/resume.pdf",
   social: {
-    github: "https://github.com/seu-usuario",
-    linkedin: "https://linkedin.com/in/seu-usuario",
+    github: "https://github.com/MardenAndradee",
+    linkedin: "https://linkedin.com/in/marden-andrade-928961311/",
   },
 };

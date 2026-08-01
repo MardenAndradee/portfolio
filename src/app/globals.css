@@ -55,6 +55,15 @@ body {
   color: transparent;
 }
 
+.card-gradient {
+  background: linear-gradient(
+    160deg,
+    var(--color-background-elevated),
+    color-mix(in srgb, var(--color-accent) 9%, var(--color-background-elevated)) 60%,
+    color-mix(in srgb, var(--color-accent-2) 7%, var(--color-background-elevated)) 100%
+  );
+}
+
 .section-glow {
   background:
     radial-gradient(
