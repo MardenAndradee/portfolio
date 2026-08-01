@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "title": "Seu Nome — Desenvolvedor & QA Engineer",
+    "description": "Portfolio de Seu Nome, desenvolvedor de software e engenheiro de QA."
+  },
+  "nav": {
+    "about": "Sobre",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "education": "Formação",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou",
+    "name": "Seu Nome",
+    "role": "Desenvolvedor de Software & QA Engineer",
+    "tagline": "Construo software confiável de ponta a ponta — do código à garantia de qualidade. Foco em entregar produtos robustos, testáveis e bem escritos.",
+    "ctaProjects": "Ver projetos",
+    "ctaContact": "Fale comigo",
+    "ctaResume": "Baixar CV",
+    "available": "Disponível para novas oportunidades"
+  },
+  "about": {
+    "eyebrow": "Sobre mim",
+    "title": "Quem eu sou",
+    "paragraphs": [
+      "[Escreva aqui um parágrafo curto sobre sua trajetória: como começou na área, sua formação e o que te motiva como profissional de tecnologia.]",
+      "[Escreva um segundo parágrafo sobre sua experiência atual, especialidades técnicas e o tipo de projeto ou desafio que mais gosta de resolver — seja em desenvolvimento, testes ou os dois.]"
+    ],
+    "stats": [
+      { "value": "X+", "label": "Anos de experiência" },
+      { "value": "X+", "label": "Projetos entregues" },
+      { "value": "X+", "label": "Certificações" }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Habilidades",
+    "title": "Tecnologias e ferramentas",
+    "subtitle": "Um panorama das linguagens, frameworks e práticas que uso no dia a dia.",
+    "categories": [
+      {
+        "name": "Linguagens",
+        "items": ["JavaScript", "TypeScript", "Python", "Java"]
+      },
+      {
+        "name": "Front-end",
+        "items": ["React", "Next.js", "Tailwind CSS", "HTML & CSS"]
+      },
+      {
+        "name": "Back-end",
+        "items": ["Node.js", "REST APIs", "SQL", "NoSQL"]
+      },
+      {
+        "name": "QA & Testes",
+        "items": ["Cypress", "Playwright", "Selenium", "Jest", "Testes de API", "Testes manuais"]
+      },
+      {
+        "name": "Ferramentas & DevOps",
+        "items": ["Git", "GitHub", "CI/CD", "Docker", "Jira"]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Projetos",
+    "title": "Trabalhos recentes",
+    "subtitle": "Uma seleção de projetos que mostram como eu desenvolvo e testo software.",
+    "viewCode": "Ver código",
+    "viewDemo": "Ver demo",
+    "items": [
+      {
+        "title": "Nome do Projeto 1",
+        "description": "[Descreva aqui o problema que o projeto resolve, seu papel e o principal destaque técnico. Duas ou três frases já bastam.]",
+        "tags": ["React", "TypeScript", "Node.js"],
+        "images": [],
+        "repoUrl": "",
+        "demoUrl": ""
+      },
+      {
+        "title": "Nome do Projeto 2",
+        "description": "[Descreva aqui o problema que o projeto resolve, seu papel e o principal destaque técnico. Duas ou três frases já bastam.]",
+        "tags": ["Cypress", "QA", "CI/CD"],
+        "images": [],
+        "repoUrl": "",
+        "demoUrl": ""
+      },
+      {
+        "title": "Nome do Projeto 3",
+        "description": "[Descreva aqui o problema que o projeto resolve, seu papel e o principal destaque técnico. Duas ou três frases já bastam.]",
+        "tags": ["Next.js", "Tailwind", "API"],
+        "images": [],
+        "repoUrl": "",
+        "demoUrl": ""
+      }
+    ]
+  },
+  "education": {
+    "eyebrow": "Formação",
+    "title": "Formação & Certificações",
+    "subtitle": "Minha trajetória acadêmica e certificações profissionais.",
+    "items": [
+      {
+        "period": "20XX — 20XX",
+        "title": "Nome do Curso ou Graduação",
+        "institution": "Nome da Instituição",
+        "description": "[Descrição opcional sobre o curso, TCC ou destaque relevante.]"
+      },
+      {
+        "period": "20XX",
+        "title": "Nome da Certificação (ex: ISTQB, AWS, etc.)",
+        "institution": "Nome da Instituição/Emissor",
+        "description": "[Descrição opcional sobre a certificação.]"
+      },
+      {
+        "period": "20XX",
+        "title": "Nome do Curso Complementar",
+        "institution": "Nome da Instituição",
+        "description": "[Descrição opcional.]"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contato",
+    "title": "Vamos conversar",
+    "subtitle": "Estou aberto a novas oportunidades, projetos e colaborações. Envie uma mensagem ou me encontre nas redes abaixo.",
+    "emailCta": "Enviar e-mail",
+    "email": "seuemail@example.com",
+    "location": "Sua Cidade, Brasil"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "builtWith": "Construído com Next.js & Tailwind CSS"
+  },
+  "themeToggle": {
+    "light": "Tema claro",
+    "dark": "Tema escuro"
+  }
+}

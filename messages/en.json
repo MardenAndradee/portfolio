@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "title": "Your Name — Software Developer & QA Engineer",
+    "description": "Portfolio of Your Name, software developer and QA engineer."
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Your Name",
+    "role": "Software Developer & QA Engineer",
+    "tagline": "I build reliable software end to end — from code to quality assurance. Focused on shipping robust, testable, well-crafted products.",
+    "ctaProjects": "View projects",
+    "ctaContact": "Get in touch",
+    "ctaResume": "Download CV",
+    "available": "Available for new opportunities"
+  },
+  "about": {
+    "eyebrow": "About me",
+    "title": "Who I am",
+    "paragraphs": [
+      "[Write a short paragraph here about your journey: how you got into tech, your background, and what drives you as a professional.]",
+      "[Write a second paragraph about your current experience, technical specialties, and the kind of project or challenge you enjoy solving most — whether in development, testing, or both.]"
+    ],
+    "stats": [
+      { "value": "X+", "label": "Years of experience" },
+      { "value": "X+", "label": "Projects delivered" },
+      { "value": "X+", "label": "Certifications" }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Technologies & tools",
+    "subtitle": "An overview of the languages, frameworks, and practices I use day to day.",
+    "categories": [
+      {
+        "name": "Languages",
+        "items": ["JavaScript", "TypeScript", "Python", "Java"]
+      },
+      {
+        "name": "Front-end",
+        "items": ["React", "Next.js", "Tailwind CSS", "HTML & CSS"]
+      },
+      {
+        "name": "Back-end",
+        "items": ["Node.js", "REST APIs", "SQL", "NoSQL"]
+      },
+      {
+        "name": "QA & Testing",
+        "items": ["Cypress", "Playwright", "Selenium", "Jest", "API testing", "Manual testing"]
+      },
+      {
+        "name": "Tools & DevOps",
+        "items": ["Git", "GitHub", "CI/CD", "Docker", "Jira"]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "Recent work",
+    "subtitle": "A selection of projects that show how I build and test software.",
+    "viewCode": "View code",
+    "viewDemo": "View demo",
+    "items": [
+      {
+        "title": "Project Name 1",
+        "description": "[Describe the problem this project solves, your role, and the main technical highlight. Two or three sentences are enough.]",
+        "tags": ["React", "TypeScript", "Node.js"],
+        "images": [],
+        "repoUrl": "",
+        "demoUrl": ""
+      },
+      {
+        "title": "Project Name 2",
+        "description": "[Describe the problem this project solves, your role, and the main technical highlight. Two or three sentences are enough.]",
+        "tags": ["Cypress", "QA", "CI/CD"],
+        "images": [],
+        "repoUrl": "",
+        "demoUrl": ""
+      },
+      {
+        "title": "Project Name 3",
+        "description": "[Describe the problem this project solves, your role, and the main technical highlight. Two or three sentences are enough.]",
+        "tags": ["Next.js", "Tailwind", "API"],
+        "images": [],
+        "repoUrl": "",
+        "demoUrl": ""
+      }
+    ]
+  },
+  "education": {
+    "eyebrow": "Education",
+    "title": "Education & Certifications",
+    "subtitle": "My academic background and professional certifications.",
+    "items": [
+      {
+        "period": "20XX — 20XX",
+        "title": "Degree or Course Name",
+        "institution": "Institution Name",
+        "description": "[Optional description about the course, thesis, or relevant highlight.]"
+      },
+      {
+        "period": "20XX",
+        "title": "Certification Name (e.g. ISTQB, AWS, etc.)",
+        "institution": "Institution/Issuer Name",
+        "description": "[Optional description about the certification.]"
+      },
+      {
+        "period": "20XX",
+        "title": "Additional Course Name",
+        "institution": "Institution Name",
+        "description": "[Optional description.]"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk",
+    "subtitle": "I'm open to new opportunities, projects, and collaborations. Send a message or find me on the networks below.",
+    "emailCta": "Send email",
+    "email": "youremail@example.com",
+    "location": "Your City, Country"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with Next.js & Tailwind CSS"
+  },
+  "themeToggle": {
+    "light": "Light theme",
+    "dark": "Dark theme"
+  }
+}
