@@ -25,11 +25,11 @@ export function SectionHeading({
         <span className="font-mono text-sm font-medium tracking-wide text-accent">
           {eyebrow}
         </span>
-        <h2 className="mt-3 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
+        <h2 className="mt-2 text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
           {title}
         </h2>
         {subtitle ? (
-          <p className="mt-4 max-w-2xl text-base text-muted-foreground">
+          <p className="mt-3 max-w-2xl text-sm text-muted-foreground sm:text-base">
             {subtitle}
           </p>
         ) : null}

@@ -73,15 +73,45 @@ export function ProjectCard({ project }: { project: Project }) {
         )}
       </div>
 
-      <div className="flex flex-1 flex-col p-6">
-        <h3 className="text-lg font-semibold text-foreground">
-          {project.title}
-        </h3>
-        <p className="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">
+      <div className="flex flex-1 flex-col p-5">
+        <div className="flex items-start justify-between gap-2">
+          <h3 className="text-base font-semibold text-foreground">
+            {project.title}
+          </h3>
+          {(project.repoUrl || project.demoUrl) && (
+            <div className="flex shrink-0 items-center gap-3 pt-0.5 text-muted-foreground">
+              {project.repoUrl ? (
+                <a
+                  href={project.repoUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={t("viewCode")}
+                  title={t("viewCode")}
+                  className="transition-colors hover:text-foreground"
+                >
+                  <GithubIcon size={16} />
+                </a>
+              ) : null}
+              {project.demoUrl ? (
+                <a
+                  href={project.demoUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={t("viewDemo")}
+                  title={t("viewDemo")}
+                  className="transition-colors hover:text-foreground"
+                >
+                  <ExternalLink size={16} />
+                </a>
+              ) : null}
+            </div>
+          )}
+        </div>
+        <p className="mt-1.5 flex-1 text-sm leading-relaxed text-muted-foreground">
           {project.description}
         </p>
 
-        <div className="mt-4 flex flex-wrap gap-2">
+        <div className="mt-3 flex flex-wrap gap-1.5">
           {project.tags.map((tag) => (
             <span
               key={tag}
@@ -91,33 +121,6 @@ export function ProjectCard({ project }: { project: Project }) {
             </span>
           ))}
         </div>
-
-        {(project.repoUrl || project.demoUrl) && (
-          <div className="mt-5 flex gap-4 border-t border-border pt-4 text-sm">
-            {project.repoUrl ? (
-              <a
-                href={project.repoUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-1.5 text-muted-foreground transition-colors hover:text-foreground"
-              >
-                <GithubIcon size={15} />
-                {t("viewCode")}
-              </a>
-            ) : null}
-            {project.demoUrl ? (
-              <a
-                href={project.demoUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-1.5 text-muted-foreground transition-colors hover:text-foreground"
-              >
-                <ExternalLink size={15} />
-                {t("viewDemo")}
-              </a>
-            ) : null}
-          </div>
-        )}
       </div>
     </div>
   );

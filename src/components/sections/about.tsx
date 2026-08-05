@@ -9,19 +9,19 @@ export function About() {
   const stats = t.raw("stats") as { value: string; label: string }[];
 
   return (
-    <section id="about" className="py-24 sm:py-32">
+    <section id="about" className="py-16 sm:py-20">
       <Container>
         <SectionHeading
           eyebrow={t("eyebrow")}
           title={t("title")}
         />
 
-        <div className="mt-12 grid gap-12 lg:grid-cols-[1.4fr_1fr]">
-          <Reveal delay={0.1} className="space-y-5">
+        <div className="mt-8 grid gap-8 lg:grid-cols-[1.4fr_1fr]">
+          <Reveal delay={0.1} className="space-y-4">
             {paragraphs.map((p, i) => (
               <p
                 key={i}
-                className="text-base leading-relaxed text-muted-foreground sm:text-lg"
+                className="text-sm leading-relaxed text-muted-foreground sm:text-base"
               >
                 {p}
               </p>
@@ -29,11 +29,11 @@ export function About() {
           </Reveal>
 
           <Reveal delay={0.2}>
-            <dl className="grid grid-cols-1 gap-6 sm:grid-cols-3 lg:grid-cols-1">
+            <dl className="grid grid-cols-1 gap-4 sm:grid-cols-3 lg:grid-cols-1">
               {stats.map((stat) => (
                 <div
                   key={stat.label}
-                  className="rounded-xl border border-border bg-background-elevated p-6"
+                  className="rounded-xl border border-border bg-background-elevated p-5"
                 >
                   <dt className="text-3xl font-semibold text-gradient">
                     {stat.value}

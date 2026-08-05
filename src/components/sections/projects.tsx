@@ -9,7 +9,7 @@ export function Projects() {
   const items = t.raw("items") as Project[];
 
   return (
-    <section id="projects" className="border-t border-border py-24 sm:py-32">
+    <section id="projects" className="border-t border-border py-16 sm:py-20">
       <Container>
         <SectionHeading
           eyebrow={t("eyebrow")}
@@ -17,7 +17,7 @@ export function Projects() {
           subtitle={t("subtitle")}
         />
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2">
+        <div className="mt-8 grid gap-5 sm:grid-cols-2">
           {items.map((project, i) => (
             <Reveal key={project.title} delay={i * 0.08}>
               <ProjectCard project={project} />

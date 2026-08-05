@@ -11,9 +11,9 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="section-glow relative flex min-h-screen items-center overflow-hidden pt-16"
+      className="section-glow relative flex min-h-[85vh] items-center overflow-hidden pt-16"
     >
-      <Container className="grid items-center gap-16 py-20 lg:grid-cols-[1.1fr_0.9fr]">
+      <Container className="grid items-center gap-10 py-14 lg:grid-cols-[1.1fr_0.9fr]">
         <div>
           <Reveal>
             <span className="inline-flex items-center gap-2 rounded-full border border-border bg-background-elevated px-3 py-1 text-xs text-muted-foreground">
@@ -26,26 +26,26 @@ export function Hero() {
           </Reveal>
 
           <Reveal delay={0.1}>
-            <h1 className="mt-6 text-4xl font-semibold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
+            <h1 className="mt-5 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
               {t("greeting")}{" "}
               <span className="text-gradient">{t("name")}</span>
             </h1>
           </Reveal>
 
           <Reveal delay={0.18}>
-            <p className="mt-4 font-mono text-lg text-accent-2 sm:text-xl">
+            <p className="mt-3 font-mono text-base text-accent-2 sm:text-lg">
               {t("role")}
             </p>
           </Reveal>
 
           <Reveal delay={0.26}>
-            <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
+            <p className="mt-4 max-w-xl text-sm leading-relaxed text-muted-foreground sm:text-base">
               {t("tagline")}
             </p>
           </Reveal>
 
           <Reveal delay={0.34}>
-            <div className="mt-10 flex flex-wrap items-center gap-4">
+            <div className="mt-7 flex flex-wrap items-center gap-4">
               <a
                 href="#projects"
                 className="inline-flex items-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-white transition-transform hover:-translate-y-0.5 hover:brightness-110"
@@ -63,7 +63,7 @@ export function Hero() {
           </Reveal>
 
           <Reveal delay={0.42}>
-            <div className="mt-10 flex items-center gap-5 text-muted-foreground">
+            <div className="mt-7 flex items-center gap-5 text-muted-foreground">
               <a
                 href={siteConfig.social.github}
                 target="_blank"
