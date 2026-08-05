@@ -1,3 +1,5 @@
+"use client";
+
 import { useTranslations } from "next-intl";
 import { ArrowRight, Mail } from "lucide-react";
 import { Container } from "@/components/ui/container";
