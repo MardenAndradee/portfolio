@@ -7,6 +7,7 @@
     "about": "Sobre",
     "skills": "Habilidades",
     "projects": "Projetos",
+    "experience": "Experiência",
     "education": "Formação",
     "contact": "Contato"
   },
@@ -106,6 +107,29 @@
         "images": [],
         "repoUrl": "",
         "demoUrl": ""
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Experiência",
+    "title": "Experiência Profissional",
+    "subtitle": "Minha trajetória no mercado de trabalho, dos primeiros passos como desenvolvedor até a atuação em QA e desenvolvimento hoje.",
+    "current": "Atual",
+    "items": [
+      {
+        "period": "2024 — Atual",
+        "role": "Analista de QA Pleno",
+        "company": "GFSIS",
+        "current": true,
+        "description": "Entrei como Analista de QA Júnior, atuando em testes manuais e automatizados sobre um sistema feito em Java. Me destaquei na área — reduzindo a taxa de bugs por atualização e criando uma plataforma própria de QA com IA e integração com Jira — e fui promovido a Pleno. Também passei a assumir demandas de desenvolvimento no mesmo sistema, unindo testes e código no dia a dia.",
+        "tags": ["QA", "Selenium", "Testes automatizados", "Java", "Spring Boot"]
+      },
+      {
+        "period": "2023 — 2024",
+        "role": "Desenvolvedor de Software Desktop Júnior",
+        "company": "Sommar Consultoria",
+        "description": "Minha primeira experiência profissional como desenvolvedor. Atuei na construção e manutenção de aplicações desktop em Java, aplicando na prática a lógica de programação e a arquitetura de software que vinha estudando na faculdade.",
+        "tags": ["Java", "Desktop", "POO"]
       }
     ]
   },

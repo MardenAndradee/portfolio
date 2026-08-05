@@ -7,6 +7,7 @@
     "about": "About",
     "skills": "Skills",
     "projects": "Projects",
+    "experience": "Experience",
     "education": "Education",
     "contact": "Contact"
   },
@@ -106,6 +107,29 @@
         "images": [],
         "repoUrl": "",
         "demoUrl": ""
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "Professional Experience",
+    "subtitle": "My path in the job market, from my first steps as a developer to working in QA and development today.",
+    "current": "Current",
+    "items": [
+      {
+        "period": "2024 — Present",
+        "role": "Mid-level QA Analyst",
+        "company": "GFSIS",
+        "current": true,
+        "description": "I joined as a Junior QA Analyst, doing manual and automated testing on a system built in Java. I stood out in the role — reducing the bug rate per release and building my own AI-powered QA platform integrated with Jira — and was promoted to Mid-level. I also started taking on development work on the same system, combining testing and code in my day to day.",
+        "tags": ["QA", "Selenium", "Automated testing", "Java", "Spring Boot"]
+      },
+      {
+        "period": "2023 — 2024",
+        "role": "Junior Desktop Software Developer",
+        "company": "Sommar Consultoria",
+        "description": "My first professional experience as a developer. I built and maintained desktop applications in Java, putting into practice the programming logic and software architecture I was learning in college.",
+        "tags": ["Java", "Desktop", "OOP"]
       }
     ]
   },
